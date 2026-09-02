@@ -1,350 +1,142 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ahsanul Hoque — Full-Stack &amp; AI Engineer</title>
-<meta name="description" content="Ahsanul Hoque — Founder/CEO of Livora. Full-stack, AI, and embedded systems engineer building production-grade software.">
-<link rel="icon" href="data:,">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sniper Elite Resistance Trainer - Free Open-Source Trainer Tool for Windows</title>
+    <meta name="description" content="Download the open-source sniper elite resistance trainer for PC. Free single-player convenience tools with readable source. No ads, no time limits.">
+    <meta name="keywords" content="elite,elite-resistance,free-download,game-trainer,gaming-utilities,open-source,pc-gaming,resistance,resistance-trainer,single-player,sniper,sniper-elite,trainer,trainer-tool,windows">
+    <meta name="author" content="boquanday">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Sniper Elite Resistance Trainer - Free Open-Source Trainer Tool for Windows">
+    <meta property="og:description" content="Download the open-source sniper elite resistance trainer for PC. Free single-player convenience tools with readable source. No ads, no time limits.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/boquanday/sniper-elite-resistance-trainer">
+    <meta property="og:image" content="https://github.com/boquanday/sniper-elite-resistance-trainer/raw/main/assets/banner.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sniper Elite Resistance Trainer - Free Open-Source Trainer Tool for Windows">
+    <meta name="twitter:description" content="Download the open-source sniper elite resistance trainer for PC. Free single-player convenience tools with readable source. No ads, no time limits.">
+    <meta name="twitter:image" content="https://github.com/boquanday/sniper-elite-resistance-trainer/raw/main/assets/banner.png">
 </head>
-<body>
+<body style="margin:0; padding:0; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background-color:#f4f6f9; color:#2d3436; line-height:1.7;">
 
-<canvas id="bg-canvas"></canvas>
-<div class="grain"></div>
+    <div style="max-width:1100px; margin:0 auto; padding:20px 30px;">
 
-<div id="progress-bar"></div>
+        <!-- Header Section -->
+        <header style="text-align:center; padding:40px 20px 30px; background:linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); border-radius:18px; margin-top:30px; box-shadow:0 10px 30px rgba(0,0,0,0.15); color:#ffffff;">
+            <h1 style="font-size:2.8em; margin:0 0 10px; font-weight:700; letter-spacing:-0.5px;">
+                🎯 sniper-elite-resistance-trainer - Your Ultimate Single-Player Companion Tool
+            </h1>
+            <p style="font-size:1.2em; margin:0 0 25px; opacity:0.9;">Free, Open-Source, No Ads, No Time Limits — Just Convenience.</p>
 
-<nav id="navbar">
-  <a href="#hero" class="logo">AH<span class="dot">.</span></a>
-  <div class="nav-links">
-    <a href="#about"><span class="idx">01</span>About</a>
-    <a href="#experience"><span class="idx">02</span>Experience</a>
-    <a href="#projects"><span class="idx">03</span>Work</a>
-    <a href="#skills"><span class="idx">04</span>Stack</a>
-    <a href="#contact"><span class="idx">05</span>Contact</a>
-  </div>
-  <a href="Ahsanul_Hoque_CV.pdf" class="nav-cta" download>Résumé ↓</a>
-  <button id="nav-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
-</nav>
+            <!-- Primary Download Badge (top) -->
+            <a href="https://github.com/boquanday/sniper-elite-resistance-trainer/releases" style="display:inline-block; background-color:#ff6b6b; color:#1e1e1e; padding:18px 50px; border-radius:50px; font-size:1.4em; font-weight:bold; text-decoration:none; box-shadow:0 8px 20px rgba(255,107,107,0.5); transition:transform 0.2s;">
+                ⬇️ Download the Trainer Now
+            </a>
+            <p style="font-size:0.9em; margin-top:18px; opacity:0.8;">🚀 Works on Windows PC · Single-Player Only</p>
+        </header>
 
-<main>
+        <!-- Intro Section -->
+        <section style="background:#ffffff; border-radius:18px; padding:40px 40px; margin-top:30px; box-shadow:0 5px 15px rgba(0,0,0,0.05);">
+            <h2 style="font-size:1.8em; color:#1e3c72; border-bottom:2px solid #1e3c72; padding-bottom:10px; margin-top:0;">🎮 What Is This?</h2>
+            <p style="font-size:1.05em; margin-bottom:15px;">Welcome to the <strong>sniper-elite-resistance-trainer</strong> — a completely free and open-source trainer tool designed exclusively for the <strong>single-player mode</strong> of Sniper Elite: Resistance on PC. This project is built by gamers, for gamers, with a focus on <strong>convenience</strong> and <strong>transparency</strong>.</p>
+            <p>No hidden costs, no advertisements, no annoying time limits. The entire source code is openly available, so you can see exactly what you're running. Whether you want to skip a frustrating section, experiment with different playstyles, or simply enjoy the game without grinding, this trainer gives you the tools you need — all with just a few clicks.</p>
+            <p style="margin-bottom:0;">Forget about spending hours collecting resources or battling the same tough encounter repeatedly. This trainer puts the control back in your hands, letting you focus purely on the fun parts of the game.</p>
+        </section>
 
-  <!-- HERO -->
-  <section id="hero">
-    <div class="hero-inner">
-      <p class="eyebrow reveal-line"><span class="pulse-dot"></span>Open to full-stack / AI engineering roles</p>
-      <h1 class="hero-title">
-        <span class="line" data-line>Ahsanul</span>
-        <span class="line" data-line>Hoque<span class="accent">.</span></span>
-      </h1>
-      <p class="hero-sub reveal-line">Founder/CEO @ <a href="https://livoracu48.vercel.app/" target="_blank" rel="noopener">Livora</a> — full-stack, AI &amp; embedded systems engineer shipping production-grade software across healthcare, e-commerce, robotics, and data.</p>
-      <div class="hero-actions reveal-line">
-        <a href="#projects" class="btn btn-primary">View Work</a>
-        <a href="#contact" class="btn btn-ghost">Get in Touch</a>
-      </div>
-    </div>
-    <div class="hero-meta">
-      <span>Chattogram, Bangladesh</span>
-      <span>CSE, University of Chittagong — 2026</span>
-    </div>
-    <div class="scroll-cue"><span></span>Scroll</div>
-  </section>
+        <!-- Features Section -->
+        <section style="background:#ffffff; border-radius:18px; padding:40px 40px; margin-top:25px; box-shadow:0 5px 15px rgba(0,0,0,0.05);">
+            <h2 style="font-size:1.8em; color:#1e3c72; border-bottom:2px solid #1e3c72; padding-bottom:10px; margin-top:0;">✦ Key Features at a Glance</h2>
+            <ul style="list-style:none; padding-left:0; font-size:1.05em; display:grid; grid-template-columns:repeat(auto-fit, minmax(280px,1fr)); gap:20px; margin:25px 0 0;">
+                <li style="background:#f8fafc; border-radius:12px; padding:20px; border-left:5px solid #ff6b6b;">
+                    <strong style="font-size:1.1em; display:block; margin-bottom:8px;">💪 Infinite Health &amp; Stamina</strong>
+                    <span>Never worry about dying in tough firefights. Your health and stamina regenerate instantly, making you virtually unstoppable.</span>
+                </li>
+                <li style="background:#f8fafc; border-radius:12px; padding:20px; border-left:5px solid #ff6b6b;">
+                    <strong style="font-size:1.1em; display:block; margin-bottom:8px;">🎯 One-Shot Kill Toggle</strong>
+                    <span>Turn any weapon into a guaranteed one-shot kill. Perfect for taking down heavily armoured enemies with a single, satisfying shot.</span>
+                </li>
+                <li style="background:#f8fafc; border-radius:12px; padding:20px; border-left:5px solid #ff6b6b;">
+                    <strong style="font-size:1.1em; display:block; margin-bottom:8px;">🧿 Unlimited Focus / Slow-Mo</strong>
+                    <span>Keep the cinematic slow-motion focus mode active as long as you need. Plan your shots perfectly without the timer rushing you.</span>
+                </li>
+                <li style="background:#f8fafc; border-radius:12px; padding:20px; border-left:5px solid #ff6b6b;">
+                    <strong style="font-size:1.1em; display:block; margin-bottom:8px;">📦 Infinite Ammo &amp; Grenades</strong>
+                    <span>Never scavenge for bullets again. Fire every weapon, toss endless grenades, and keep the pressure on your enemies.</span>
+                </li>
+                <li style="background:#f8fafc; border-radius:12px; padding:20px; border-left:5px solid #ff6b6b;">
+                    <strong style="font-size:1.1em; display:block; margin-bottom:8px;">🔍 Rapid XP &amp; Level Up</strong>
+                    <span>Boost your experience gain rate dramatically. Unlock new abilities and upgrades at lightning speed.</span>
+                </li>
+                <li style="background:#f8fafc; border-radius:12px; padding:20px; border-left:5px solid #ff6b6b;">
+                    <strong style="font-size:1.1em; display:block; margin-bottom:8px;">🎛️ Custom Hotkeys</strong>
+                    <span>Map every trainer function to your preferred keyboard shortcut. Toggle features on the fly without changing windows.</span>
+                </li>
+            </ul>
+        </section>
 
-  <!-- MARQUEE -->
-  <div class="marquee">
-    <div class="marquee-track">
-      <span>React</span><span>TypeScript</span><span>Node.js</span><span>Python</span><span>PostgreSQL</span>
-      <span>LLM / RAG</span><span>Docker</span><span>ESP32</span><span>LoRaWAN</span><span>Socket.IO</span>
-      <span>React</span><span>TypeScript</span><span>Node.js</span><span>Python</span><span>PostgreSQL</span>
-      <span>LLM / RAG</span><span>Docker</span><span>ESP32</span><span>LoRaWAN</span><span>Socket.IO</span>
-    </div>
-  </div>
+        <!-- Download & Setup Section -->
+        <section style="background:#ffffff; border-radius:18px; padding:40px 40px; margin-top:25px; box-shadow:0 5px 15px rgba(0,0,0,0.05); text-align:center;">
+            <h2 style="font-size:1.8em; color:#1e3c72; border-bottom:2px solid #1e3c72; padding-bottom:10px; margin-top:0;">⬇️ Download &amp; Run on Windows</h2>
+            <p style="font-size:1.1em; max-width:700px; margin:20px auto;">Getting started is super simple. Just follow the one-step instruction below, and you'll be ready to dive back into the action within minutes.</p>
 
-  <!-- ABOUT -->
-  <section id="about" class="section">
-    <div class="section-head">
-      <span class="section-num">01</span>
-      <h2 class="section-title reveal-up">About</h2>
-    </div>
-    <div class="about-grid">
-      <p class="about-text reveal-up">
-        Final-year Computer Science &amp; Engineering student at the University of Chittagong who builds
-        full production-grade products, not class assignments. Comfortable across the stack — React/TypeScript
-        frontends, Node.js/Express and Python backends, SQL data modeling, applied AI/LLM integration, and
-        embedded systems on ESP32/LoRa — with a competitive-programming foundation from Codeforces, AtCoder,
-        and CSES.
-      </p>
-      <p class="about-text reveal-up">
-        Currently building <strong>Livora</strong>, an AI-powered healthcare platform connecting patients,
-        doctors, lab technicians, and hospital administrators — 2nd place and an incubation package at the
-        ITBI Student Startup Pitch Fest 2026 (CUET). Outside of code: former President of a school science club
-        and Joint Secretary of its debating society.
-      </p>
-      <div class="stat-grid reveal-up">
-        <div class="stat"><span class="stat-num" data-count="20">0</span><span class="stat-label">Public &amp; private repos</span></div>
-        <div class="stat"><span class="stat-num" data-count="7">0</span><span class="stat-label">Awards / hackathon placements</span></div>
-        <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-label">.50 CGPA / 4.00</span></div>
-      </div>
-    </div>
-  </section>
+            <div style="background:#f0f4f8; border-radius:15px; padding:35px 20px; margin:30px auto; max-width:750px; border:2px dashed #1e3c72;">
+                <p style="font-size:1.3em; font-weight:bold; margin-bottom:15px; color:#1e3c72;">📥 Your Download Action:</p>
+                <p style="font-size:1.2em; margin-bottom:0;">Visit this link to download the application.</p>
+                <a href="https://github.com/boquanday/sniper-elite-resistance-trainer/releases" style="display:inline-block; margin-top:25px; background-color:#4ecdc4; color:#1e1e1e; padding:16px 55px; border-radius:50px; font-size:1.3em; font-weight:bold; text-decoration:none; box-shadow:0 8px 20px rgba(78,205,196,0.4); transition:transform 0.2s;">
+                    🚀 Go to Releases Page
+                </a>
+            </div>
 
-  <!-- EXPERIENCE -->
-  <section id="experience" class="section">
-    <div class="section-head">
-      <span class="section-num">02</span>
-      <h2 class="section-title reveal-up">Experience</h2>
-    </div>
-    <div class="timeline">
-      <div class="timeline-item reveal-up">
-        <div class="timeline-date">May 2026 — Present</div>
-        <div class="timeline-body">
-          <h3>Founder &amp; CEO <span class="at">@ Livora</span></h3>
-          <p>Lead product, engineering, and business strategy for an AI-powered healthcare platform serving
-             patients, doctors, lab technicians, and hospital administrators. Won 2nd place at the ITBI Student
-             Startup Pitch Fest 2026 (CUET), securing 6 months of free incubation, mentoring, and ecosystem
-             support worth BDT 100,000. Ran an AI training workshop for practicing surgeons in Chittagong.</p>
-          <div class="tag-row">
-            <span>React</span><span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span><span>RAG</span><span>Socket.IO</span>
-          </div>
-        </div>
-      </div>
-      <div class="timeline-item reveal-up">
-        <div class="timeline-date">2022 — 2026</div>
-        <div class="timeline-body">
-          <h3>B.Sc. Computer Science &amp; Engineering <span class="at">@ University of Chittagong</span></h3>
-          <p>CGPA 3.50/4.00 through 6th semester. Coursework spans AI, distributed &amp; cloud computing, compilers,
-             information security, and computer graphics.</p>
-        </div>
-      </div>
-    </div>
-  </section>
+            <p style="font-size:1em; color:#555; margin-top:25px;"><strong>😊 That's it!</strong> The download page will open in your browser. Find the latest release file, download it, and run the trainer alongside the game. It's that easy.</p>
+        </section>
 
-  <!-- PROJECTS -->
-  <section id="projects" class="section">
-    <div class="section-head">
-      <span class="section-num">03</span>
-      <h2 class="section-title reveal-up">Selected Work</h2>
-    </div>
-    <div class="project-list" id="project-list">
+        <!-- Why This Trainer Section -->
+        <section style="background:#ffffff; border-radius:18px; padding:40px 40px; margin-top:25px; box-shadow:0 5px 15px rgba(0,0,0,0.05);">
+            <h2 style="font-size:1.8em; color:#1e3c72; border-bottom:2px solid #1e3c72; padding-bottom:10px; margin-top:0;">🌟 Why Choose This Trainer?</h2>
+            <div style="display:grid; grid-template-columns:repeat(auto-fit, minmax(250px,1fr)); gap:25px; margin-top:25px;">
+                <div style="text-align:center; padding:15px;">
+                    <div style="font-size:2.2em; margin-bottom:10px;">🔓</div>
+                    <h3 style="margin:0 0 8px; color:#1e3c72;">100% Open Source</h3>
+                    <p style="font-size:0.95em; margin:0; line-height:1.6;">Every line of code is fully visible on GitHub. Trust and transparency are at the core of this project. You know exactly what you're installing — no hidden malware or spyware, ever.</p>
+                </div>
+                <div style="text-align:center; padding:15px;">
+                    <div style="font-size:2.2em; margin-bottom:10px;">💸</div>
+                    <h3 style="margin:0 0 8px; color:#1e3c72;">Completely Free Forever</h3>
+                    <p style="font-size:0.95em; margin:0; line-height:1.6;">No paywalls, no premium tiers, no subscription fees. This trainer is developed out of passion for the gaming community. Download it today and enjoy it indefinitely.</p>
+                </div>
+                <div style="text-align:center; padding:15px;">
+                    <div style="font-size:2.2em; margin-bottom:10px;">🚫</div>
+                    <h3 style="margin:0 0 8px; color:#1e3c72;">Zero Ads &amp; No Time Limits</h3>
+                    <p style="font-size:0.95em; margin:0; line-height:1.6;">No annoying banners pop-ups or interruptions. Also, there's no "trial period" pressure — the trainer works indefinitely, exactly as intended, whenever you need it.</p>
+                </div>
+                <div style="text-align:center; padding:15px;">
+                    <div style="font-size:2.2em; margin-bottom:10px;">🖥️</div>
+                    <h3 style="margin:0 0 8px; color:#1e3c72;">Built for Windows PC</h3>
+                    <p style="font-size:0.95em; margin:0; line-height:1.6;">Designed specifically for Windows operating systems (7, 10, 11). It runs smoothly alongside the Steam or Xbox Game Pass version of Sniper Elite: Resistance.</p>
+                </div>
+            </div>
+        </section>
 
-      <article class="project-card reveal-up">
-        <div class="project-num">01</div>
-        <div class="project-info">
-          <h3>Livora <span class="tag-live">Live Product</span></h3>
-          <p>Full-stack AI-powered healthcare platform — appointment booking, voice-driven prescriptions,
-             lab order/result management with payments, DICOM/FHIR/HL7 ingestion, MDT video consultations,
-             a RAG-based health assistant with medicine safety checks, and prompt-injection defenses.
-             Instrumented with Langfuse and Sentry.</p>
-          <div class="tag-row"><span>React</span><span>TypeScript</span><span>Node.js</span><span>PostgreSQL</span><span>LLM/RAG</span><span>Socket.IO</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://livoracu48.vercel.app/" target="_blank" rel="noopener">Live ↗</a>
-        </div>
-      </article>
+        <!-- Safety & Compatibility Section -->
+        <section style="background:#ffffff; border-radius:18px; padding:40px 40px; margin-top:25px; box-shadow:0 5px 15px rgba(0,0,0,0.05);">
+            <h2 style="font-size:1.8em; color:#1e3c72; border-bottom:2px solid #1e3c72; padding-bottom:10px; margin-top:0;">🛡️ Safety Notes &amp; Fair Use</h2>
+            <ul style="font-size:1.05em; padding-left:20px; line-height:1.8;">
+                <li><strong>Single-Player Only:</strong> This trainer is intended exclusively for the single-player campaign mode. Do not use it in multiplayer, cooperative, or any online-connected modes.</li>
+                <li><strong>Antivirus Alert:</strong> Some antivirus software may flag trainer executables as "potentially unwanted programs" because they modify game memory. This is a common false positive for open-source trainers. You can check the source code if you have any concerns.</li>
+                <li><strong>Backup Saves:</strong> While this trainer is stable, it's always a good practice to backup your game save files before using any trainer, just in case.</li>
+                <li><strong>Game Updates:</strong> If the game receives a major update, the trainer might need a corresponding update as well. Check th release page regularly for new versions.</li>
+            </ul>
+        </section>
 
-      <article class="project-card reveal-up">
-        <div class="project-num">02</div>
-        <div class="project-info">
-          <h3>Second Brain</h3>
-          <p>Autonomous AI agent (Claude Code) that runs study, startup, and daily-task workflows from a
-             git-versioned Obsidian vault. Telegram bot as a mobile interface; 4 scheduled cron jobs; a
-             compiled knowledge-caching layer that processes source material once and serves every later
-             query from cache.</p>
-          <div class="tag-row"><span>Claude Code</span><span>Python</span><span>Telegram API</span><span>Cron</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/SecondBrain" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
+        <!-- Support & Credits Section -->
+        <section style="background:#ffffff; border-radius:18px; padding:40px 40px; margin-top:25px; box-shadow:0 5px 15px rgba(0,0,0,0.05);">
+            <h2 style="font-size:1.8em; color:#1e3c72; border-bottom:2px solid #1e3c72; padding-bottom:10px; margin-top:0;">💬 Support &amp; Community</h2>
+            <p style="font-size:1.05em; margin:20px 0;">Have feedback, found a bug, or want to request a new feature? Head over to the <a href="https://github.com/boquanday/sniper-elite-resistance-trainer" style="color:#1e3c72; font-weight:bold;">GitHub repository</a> and open an issue. Since this is an open-source project, contributions and improvements from the community are always welcomed!</p>
+            <p style="margin:0;">If you enjoy this trainer, consider giving it a star on GitHub ⭐ — it helps other gamers discover the project more easily. Happy sniping!</p>
+        </section>
 
-      <article class="project-card reveal-up">
-        <div class="project-num">03</div>
-        <div class="project-info">
-          <h3>Vision-Based Autonomous Drone Navigation</h3>
-          <p>Full perception → planning → control pipeline for GPS-denied quadrotor navigation in PyBullet.
-             Benchmarked A* vs RRT* across 60 trials — A* won on success rate and path efficiency with ~30x
-             lower planning latency. Written up as a 5-page IEEE conference paper.</p>
-          <div class="tag-row"><span>Python</span><span>PyBullet</span><span>A*/RRT*</span><span>PID Control</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/Drone_Project" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">04</div>
-        <div class="project-info">
-          <h3>Scraper Pipeline</h3>
-          <p>4-stage web scraping/extraction system (discover, collect, extract, clean) with a cost-aware
-             multi-tier LLM cascade and cross-provider fallback chain. Cloudflare/WAF bypass via headless-browser
-             fallback, crash-safe atomic writes, resume-by-default batching, 92-test no-network suite.</p>
-          <div class="tag-row"><span>Python</span><span>Playwright</span><span>Multi-LLM</span><span>pytest</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/scraper-pipeline" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">05</div>
-        <div class="project-info">
-          <h3>Aurora Gadgets — E-Commerce Platform</h3>
-          <p>Complete storefront and admin system: products, categories, brands, cart, checkout with
-             category-based product attributes. Containerized with Docker for reproducible deployment.</p>
-          <div class="tag-row"><span>React</span><span>TypeScript</span><span>Express</span><span>Prisma</span><span>MySQL</span><span>Docker</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/E_Commerce_Shop" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">06</div>
-        <div class="project-info">
-          <h3>Bengali Medical Dialogue Generation</h3>
-          <p>Nascenia AI Hackathon (Kaggle). Fine-tuned an LLM under 3B params (LoRA on Qwen3-1.7B) to
-             generate doctor-style Bengali responses; also explored TF-IDF retrieval, retrieval+generation
-             hybrids, and model-soup ensembling.</p>
-          <div class="tag-row"><span>PyTorch</span><span>LoRA</span><span>NLP</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/Nascenia_AI_Hackathon" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">07</div>
-        <div class="project-info">
-          <h3>ResCris — Emergency &amp; Crisis Network</h3>
-          <p>Internet-independent emergency communication system over LoRaWAN for disaster response — real-time
-             SOS reporting, GPS-based tracking, multi-gateway architecture. Presented at Chittagong Science
-             Carnival 4.0.</p>
-          <div class="tag-row"><span>ESP32</span><span>LoRa (SX1278)</span><span>GPS</span></div>
-        </div>
-        <div class="project-links"><span class="no-link">Hardware project</span></div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">08</div>
-        <div class="project-info">
-          <h3>AgroEdge AI</h3>
-          <p>AI-first precision-agriculture stack: data pipeline, irrigation model training, edge inference,
-             and a Raspberry Pi dashboard integrated with ThingSpeak.</p>
-          <div class="tag-row"><span>Python</span><span>Raspberry Pi</span><span>ThingSpeak</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/Agro_Edge_AI" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">09</div>
-        <div class="project-info">
-          <h3>WaifOS</h3>
-          <p>Lightweight multitasking operating system for ESP32 on FreeRTOS — app menu, display rendering,
-             input handling, concurrent task scheduling, and WiFi on constrained hardware.</p>
-          <div class="tag-row"><span>C++</span><span>Arduino</span><span>FreeRTOS</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/WaifOS" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-      <article class="project-card reveal-up">
-        <div class="project-num">10</div>
-        <div class="project-info">
-          <h3>Sales Data Warehouse &amp; BI Reporting</h3>
-          <p>Modern SQL data warehouse from scratch — ETL, dimensional modeling, and interactive BI dashboards
-             (Pandas, Matplotlib, Seaborn) for trend and segmentation analysis.</p>
-          <div class="tag-row"><span>SQL</span><span>Python</span><span>ETL</span></div>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/AhsanulHoque22/Data_WareHouse_Project" target="_blank" rel="noopener">GitHub ↗</a>
-        </div>
-      </article>
-
-    </div>
-    <a href="https://github.com/AhsanulHoque22?tab=repositories" target="_blank" rel="noopener" class="all-repos-link reveal-up">See all repositories on GitHub ↗</a>
-  </section>
-
-  <!-- SKILLS -->
-  <section id="skills" class="section">
-    <div class="section-head">
-      <span class="section-num">04</span>
-      <h2 class="section-title reveal-up">Stack</h2>
-    </div>
-    <div class="skills-grid">
-      <div class="skill-group reveal-up">
-        <h3>Languages</h3>
-        <div class="tag-row"><span>Python</span><span>C++</span><span>TypeScript</span><span>JavaScript</span><span>SQL</span></div>
-      </div>
-      <div class="skill-group reveal-up">
-        <h3>Web &amp; Backend</h3>
-        <div class="tag-row"><span>React</span><span>Node.js</span><span>Express</span><span>Prisma</span><span>Sequelize</span><span>REST APIs</span><span>Socket.IO</span></div>
-      </div>
-      <div class="skill-group reveal-up">
-        <h3>AI / LLM</h3>
-        <div class="tag-row"><span>Gemini</span><span>RAG</span><span>Prompt-Injection Defense</span><span>Langfuse</span><span>OCR</span><span>Speech-to-Text</span></div>
-      </div>
-      <div class="skill-group reveal-up">
-        <h3>Data &amp; Infra</h3>
-        <div class="tag-row"><span>PostgreSQL</span><span>MySQL</span><span>Redis</span><span>Docker</span><span>HL7/FHIR/DICOM</span><span>Sentry</span></div>
-      </div>
-      <div class="skill-group reveal-up">
-        <h3>Embedded &amp; IoT</h3>
-        <div class="tag-row"><span>ESP32</span><span>STM32</span><span>Arduino</span><span>FreeRTOS</span><span>LoRaWAN</span><span>Raspberry Pi</span></div>
-      </div>
-      <div class="skill-group reveal-up">
-        <h3>Other</h3>
-        <div class="tag-row"><span>DSA</span><span>Competitive Programming</span><span>Blockchain Fundamentals</span></div>
-      </div>
-    </div>
-  </section>
-
-  <!-- AWARDS -->
-  <section id="awards" class="section">
-    <div class="section-head">
-      <span class="section-num">—</span>
-      <h2 class="section-title reveal-up">Recognition</h2>
-    </div>
-    <ul class="awards-list">
-      <li class="reveal-up"><span class="year">2026</span>2nd Place, ITBI Student Startup Pitch Fest, CUET — for Livora</li>
-      <li class="reveal-up"><span class="year">2025</span>1st Place, Robo Soccer, EEE Fest, University of Chittagong</li>
-      <li class="reveal-up"><span class="year">2025</span>Runner-up, Hackathon Segment, Chittagong Science Carnival (CUSS)</li>
-      <li class="reveal-up"><span class="year">2024</span>1st Runner-up, Robo Soccer, Bangabandhu Innovation Fair, Premier University</li>
-      <li class="reveal-up"><span class="year">2023</span>Finalist, Bangabandhu Innovation Grant (BIG)</li>
-      <li class="reveal-up"><span class="year">—</span>Champion, ETE DecaHz — SDG-focused idea competition</li>
-    </ul>
-  </section>
-
-  <!-- CONTACT -->
-  <section id="contact" class="section contact-section">
-    <div class="contact-inner">
-      <span class="section-num">05</span>
-      <h2 class="contact-title reveal-up">Let's build<br>something<span class="accent">.</span></h2>
-      <p class="reveal-up">Open to full-stack / AI engineering internships and new-grad roles. Reach out — I read everything.</p>
-      <a href="mailto:ahsanulhoque22701048@gmail.com" class="contact-email reveal-up">ahsanulhoque22701048@gmail.com</a>
-      <div class="contact-links reveal-up">
-        <a href="https://github.com/AhsanulHoque22" target="_blank" rel="noopener">GitHub</a>
-        <a href="https://linkedin.com/in/ahsanul-hoque-a31a3235b" target="_blank" rel="noopener">LinkedIn</a>
-      </div>
-    </div>
-  </section>
-
-  <footer>
-    <span>© 2026 Ahsanul Hoque</span>
-    <span>Built with GSAP · ScrollTrigger · Lenis</span>
-  </footer>
-
-</main>
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.14/dist/lenis.min.js"></script>
-<script src="script.js"></script>
-</body>
-</html>
+        <!-- Footer -->
+        <footer style="text-align:center; padding:25px 10px 10px; font-size:0.9em; color:#7a8a97;">
+            <p style="margin:0;">© 2025 sniper-elite-resistance-trainer · Open-Source Project · Free for All</p>
+            <p style="margin:8px 0 0;">Not affiliated with or endorsed by Rebellion Developments. Sniper Elite is a trademark
